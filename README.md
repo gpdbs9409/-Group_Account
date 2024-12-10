@@ -1,5 +1,4 @@
 
-```markdown
 # Group Account - 모임통장 관리 웹 애플리케이션
 
 ## 프로젝트 개요
