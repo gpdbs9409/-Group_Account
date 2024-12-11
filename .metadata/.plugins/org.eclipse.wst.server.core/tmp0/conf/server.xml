@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="C:\Users\gpdbs\Desktop\웹서버_이클립스워크플레이스\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\gpdbs\Desktop\웹서버_이클립스워크플레이스\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Group-Account" path="/Group-Account" reloadable="true" source="org.eclipse.jst.jee.server:Group-Account"/></Host>
+      <Context docBase="C:\Users\gpdbs\Desktop\2024-2 막학기!\웹서버\-Group_Account\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="C:\Users\gpdbs\Desktop\2024-2 막학기!\웹서버\-Group_Account\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Group-Account" path="/Group-Account" reloadable="true" source="org.eclipse.jst.jee.server:Group-Account"/></Host>
     </Engine>
   </Service>
 </Server>

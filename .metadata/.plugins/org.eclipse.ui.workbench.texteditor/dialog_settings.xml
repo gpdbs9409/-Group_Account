@@ -3,6 +3,7 @@
 	<item key="hasShownOverlayPopupBefore" value="true"/>
 	<item key="replaceBarOpen" value="false"/>
 	<list key="searchhistory">
+		<item value="servlet"/>
 		<item value="계모임"/>
 		<item value="connector port=&quot;8080&quot;"/>
 		<item value="connector port 8080"/>

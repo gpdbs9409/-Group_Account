@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+
+<div style="width: 100%; height: 100%; position: relative; background: white">
+<img src="images/image 97.png" alt="나" style="width: auto; height: auto;">
+
+    <div style="left: 24.89px; top: 14.50px; position: absolute">
+        <div style="width: 30px; height: 17px; left: 0px; top: 0px; position: absolute; text-align: center; color: #1E1E2D; font-size: 15px; font-family: SF Pro Display; font-weight: 600; line-height: 18px; word-wrap: break-word">9:41</div>
+        <div style="width: 67px; height: 11.50px; left: 273.61px; top: 2.50px; position: absolute">
+            <div style="width: 24.50px; height: 11.50px; left: 42.50px; top: 0px; position: absolute">
+                <div style="width: 24.50px; height: 11.50px; left: 0px; top: 0px; position: absolute; background: #A2A2A7; border: 1px solid"></div>
+                <div style="width: 18px; height: 7.67px; left: 2px; top: 1.92px; position: absolute; background: #1E1E2D; border-radius: 1.60px; border: 1px solid"></div>
+            </div>
+            <div style="width: 17.10px; height: 10.70px; left: 0px; top: 0.44px; position: absolute; background: #1E1E2D; border: 1px solid"></div>
+            <div style="width: 15.40px; height: 11.06px; left: 22.10px; top: 0.24px; position: absolute; background: #1E1E2D; border: 1px solid"></div>
+        </div>
+    </div>
+    <div style="width: 237px; left: 20px; top: 54px; position: absolute">
+        <div style="width: 42px; height: 42px; left: 0px; top: 0px; position: absolute">
+            <div style="width: 42px; height: 42px; left: 0px; top: 0px; position: absolute; background: #F4F4F4; border-radius: 9999px; border: 1px solid"></div>
+            <div style="width: 20px; height: 20px; left: 11px; top: 11px; position: absolute">
+                <div style="width: 6px; height: 12px; left: 7px; top: 4px; position: absolute; border: 1.50px #1E1E2D solid"></div>
+                <div style="width: 20px; height: 20px; left: 0px; top: 0px; position: absolute; border: 1px solid"></div>
+            </div>
+        </div>
+        <div style="width: 140px; height: 20px; left: 97px; top: 11px; position: absolute; text-align: center; color: #1E1E2D; font-size: 18px; font-family: Poppins; font-weight: 500; line-height: 18px; word-wrap: break-word">통장개설</div>
+    </div>
+    <div style="width: 335px; height: 56px; left: 20px; top: 706px; position: absolute">
+        <div style="width: 335px; height: 56px; left: 0px; top: 0px; position: absolute; background: #0066FF; border-radius: 16px; border: 1px solid"></div>
+        <div style="width: 100px; height: 24px; left: 117.50px; top: 16px; position: absolute; text-align: center; color: white; font-size: 16px; font-family: Poppins; font-weight: 600; line-height: 24px; word-wrap: break-word">입금하기</div>
+    </div>
+    <div style="width: 327px; height: 264px; left: 16px; top: 400px; position: absolute">
+        <div style="width: 327px; height: 264px; left: 0px; top: 0px; position: absolute; background: white; box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.15); border-radius: 15px"></div>
+        <div style="width: 30px; height: 22.63px; left: 149px; top: 67.89px; position: absolute; text-align: center; color: #979797; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">회비</div>
+        <div style="width: 45px; height: 22.63px; left: 142px; top: 105.60px; position: absolute; text-align: center; color: #979797; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">계모임</div>
+        <div style="width: 30px; height: 22.63px; left: 149px; top: 143.31px; position: absolute; text-align: center; color: #3629B7; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">여행</div>
+        <div style="width: 16px; height: 15.09px; padding-top: 2.12px; padding-bottom: 2.51px; padding-left: 0.25px; padding-right: 0.25px; left: 295px; top: 145.20px; position: absolute; justify-content: center; align-items: center; display: inline-flex">
+            <div style="width: 15.49px; height: 10.45px; background: #3629B7"></div>
+        </div>
+        <div style="width: 54px; height: 22.63px; left: 137px; top: 181.03px; position: absolute; text-align: center; color: #979797; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">option</div>
+        <div style="width: 54px; height: 22.63px; left: 136px; top: 218.74px; position: absolute; text-align: center; color: #979797; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">option</div>
+        <div style="width: 130px; height: 22.63px; left: 99px; top: 23.57px; position: absolute; text-align: center; color: #343434; font-size: 16px; font-family: Poppins; font-weight: 700; line-height: 24px; word-wrap: break-word">목적이 무엇인가요?</div>
+        <div style="width: 16px; height: 16.34px; left: 295px; top: 15.09px; position: absolute">
+            <div style="width: 12px; height: 12.26px; left: 2px; top: 2.51px; position: absolute; background: #898989"></div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

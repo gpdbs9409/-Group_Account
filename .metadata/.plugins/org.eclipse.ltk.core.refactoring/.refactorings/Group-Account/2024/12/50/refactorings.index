@@ -1,0 +1,11 @@
+1733822584127	Rename resource 'jsp'
+1733822762649	Rename resource 'create_tables.sql'
+1733825551116	Delete element
+1733894494140	Delete element
+1733894530640	Rename resource 'bank.jsp'
+1733895673875	Rename resource 'AddAccountTravel.jsp'
+1733898812149	Move 'images' to 'webapp'
+1733898851610	Move 'images' to 'views'
+1733907885965	Move 'util' to 'resources'
+1733908765462	Move 'RegisterServlet.java' to 'views'
+1733908803363	Move 'RegisterServlet.java' to 'servlets'
