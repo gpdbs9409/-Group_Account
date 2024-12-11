@@ -10,6 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+
 @WebServlet("/RegisterAccountServlet")
 public class RegisterAccountServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -23,8 +24,16 @@ public class RegisterAccountServlet extends HttpServlet {
         String bankName = request.getParameter("bankname");
         String accountNumber = request.getParameter("account-number");
 
+        // 로그인한 사용자 ID 가져오기
+        Integer userId = (Integer) request.getSession().getAttribute("userId"); // 세션에서 userId 가져오기
+        if (userId == null) {
+            response.getWriter().println("로그인이 필요합니다!");
+            return;
+        }
+
         // Account 객체 생성 및 값 설정
         Account account = new Account();
+        account.setUserId(userId);
         account.setAccountName(accountName);
         account.setDescription(description);
         account.setBankName(bankName);
@@ -35,11 +44,9 @@ public class RegisterAccountServlet extends HttpServlet {
         boolean isRegistered = accountDAO.registerAccount(account);
 
         if (isRegistered) {
-            // 성공 시 success.jsp로 포워딩
             request.setAttribute("message", "통장이 성공적으로 등록되었습니다!");
-            request.getRequestDispatcher("/views/main_bankview.jsp").forward(request, response);
+            request.getRequestDispatcher("/views/success.jsp").forward(request, response);
         } else {
-            // 실패 시 error.jsp로 포워딩
             request.setAttribute("message", "통장 등록에 실패했습니다. 다시 시도해주세요.");
             request.getRequestDispatcher("/views/error.jsp").forward(request, response);
         }

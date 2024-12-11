@@ -198,3 +198,13 @@
 0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:10:38 +0900] "GET /Group-Account/views/AddAcount.jsp HTTP/1.1" 200 4333
 0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:10:55 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 404 813
 0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:12:01 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 404 811
+127.0.0.1 - - [11/Dec/2024:23:37:05 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:37:06 +0900] "GET /Group-Account/views/AddAcount.jsp HTTP/1.1" 200 4333
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:37:13 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 404 811
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:38:47 +0900] "GET /Group-Account/views/AddAcount.jsp?account-name=%EC%9C%A4&date=2024-05-28&cvv=%EC%9C%A4&account-number=%EC%9C%A4 HTTP/1.1" 200 4333
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:40:38 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 200 31
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:45:01 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 200 31
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:56:36 +0900] "POST /Group-Account/RegisterAccountServlet HTTP/1.1" 200 31
+127.0.0.1 - - [11/Dec/2024:23:57:17 +0900] "GET / HTTP/1.1" 404 807
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:57:18 +0900] "GET /Group-Account/views/sign-in.jsp HTTP/1.1" 200 4166
+0:0:0:0:0:0:0:1 - - [11/Dec/2024:23:57:20 +0900] "POST /Group-Account/views/LoginServlet HTTP/1.1" 404 847
