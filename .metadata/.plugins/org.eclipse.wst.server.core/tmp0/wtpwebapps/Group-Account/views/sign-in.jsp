@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign In</title>
+    <title>로그인</title>
     <style>
         body {
             margin: 0;
@@ -18,13 +18,14 @@
     <div style="width: 100%; height: 100%; position: relative; background: white;">
         <!-- 상단 시간 표시 -->
         <div style="left: 24.89px; top: 14.50px; position: absolute;">
-            <div style="width: 30px; height: 17px; left: 0px; top: 0px; position: absolute; text-align: center; color: #1E1E2D; font-size: 15px; font-family: 'SF Pro Display', sans-serif; font-weight: 600; line-height: 18px; word-wrap: break-word;">
+            <div style="width: 30px; height: 17px; left: 0px; top: 0px; position: absolute; text-align: center; color: #1E1E2D; font-size: 10px; font-family: 'SF Pro Display', sans-serif; font-weight: 600; line-height: 18px; word-wrap: break-word;">
                 <%= new java.text.SimpleDateFormat("HH:mm").format(new java.util.Date()) %>
             </div>
         </div>
 
         <!-- 로그인 폼 -->
-        <form action="LoginServlet" method="POST">
+   <form action="${pageContext.request.contextPath}/LoginServlet" method="POST">
+
             <!-- 이메일 입력 -->
             <div style="width: 335px; left: 20px; top: 221px; position: absolute;">
                 <label for="email" style="width: 99px; height: 16px; left: 0px; top: 0px; position: absolute; color: #A2A2A7; font-size: 14px; font-family: Poppins; font-weight: 400; line-height: 14px; word-wrap: break-word;">Email Address</label>
@@ -45,14 +46,14 @@
 
             <!-- 로그인 버튼 -->
             <div style="width: 335px; height: 56px; left: 20px; top: 408px; position: absolute;">
-                <button type="submit" style="width: 335px; height: 56px; background: #0066FF; border-radius: 16px; border: none; color: white; font-size: 16px; font-family: Poppins; font-weight: 700; cursor: pointer;">Sign In</button>
+                <button type="submit" style="width: 335px; height: 56px; background: #0066FF; border-radius: 16px; border: none; color: white; font-size: 16px; font-family: Poppins; font-weight: 700; cursor: pointer;">로그인</button>
             </div>
         </form>
 
         <!-- 하단 텍스트 -->
         <div style="width: 155px; height: 16px; left: 110px; top: 493px; position: absolute;">
-            <span style="color: #A2A2A7; font-size: 14px; font-family: Poppins; font-weight: 400; line-height: 14px; word-wrap: break-word;">I’m a new user.</span>
-            <a href="signup.jsp" style="color: #0066FF; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 14px; text-decoration: none;"> Sign Up</a>
+            <span style="color: #A2A2A7; font-size: 14px; font-family: Poppins; font-weight: 400; line-height: 14px; word-wrap: break-word;">계정이 없어요.</span>
+            <a href="signup.jsp" style="color: #0066FF; font-size: 14px; font-family: Poppins; font-weight: 500; line-height: 14px; text-decoration: none;"> 회원가입</a>
         </div>
 
         <!-- 상단 아이콘 -->
@@ -61,7 +62,7 @@
         </div>
 
         <!-- 상단 제목 -->
-        <div style="width: 108px; height: 34px; left: 20px; top: 149px; position: absolute; color: #1E1E2D; font-size: 32px; font-family: Poppins; font-weight: 500; line-height: 32px; word-wrap: break-word;">Sign In</div>
+        <div style="width: 108px; height: 34px; left: 20px; top: 149px; position: absolute; color: #1E1E2D; font-size: 32px; font-family: Poppins; font-weight: 500; line-height: 32px; word-wrap: break-word;">로그인</div>
     </div>
 </body>
 </html>
